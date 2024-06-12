@@ -90,13 +90,13 @@
   gap: 10px;
 }
 
-.header__decor::before{
+.header__decor::before {
   content: 'rec';
   color: var(--accent-color, #FF0070);
   text-transform: uppercase;
 }
 
-.header__decor::after{
+.header__decor::after {
   content: '';
   border-radius: 50%;
   box-shadow: 0px 0px 4px 2px var(--accent-color, #FF0070);
@@ -167,7 +167,7 @@
   border-block-end: 1px solid currentColor;
 }
 
-.concentrate__subtitle{
+.concentrate__subtitle {
   color: var(--title-color, #000028);
   background-color: var(--bg-decor-color, #FF0070);
 }
@@ -193,7 +193,7 @@
   padding: clamp(0.625rem, 0.0287rem + 2.5445vw, 1.25rem);
 }
 
-.footer__title{
+.footer__title {
   text-align: center;
 }
 
